@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@400;500&display=swap");
+
+.header {
+  font-family: "Arima", serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+div.recipe-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+div.recipe {
+  align-items: top;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 32%;
+  height: 100;
+  border: 1px solid black;
+  transition-duration: 0.2s;
+}
+
+div.recipe:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.recipe p {
+  color: black;
+  margin: 0.75rem;
+}
+
+img {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  border-bottom: 1px solid black;
+  transition-duration: 0.25s;
+}
+
+img:hover {
+  filter: contrast(110%);
+  transition-duration: 0.5s;
+}

@@ -1,0 +1,64 @@
+/* Image Container */
+
+.img-container {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.img-container img {
+  width: 100vw;
+  height: 50vh;
+  object-fit: cover;
+  position: absolute;
+}
+
+.img-container span {
+  width: 100vw;
+  height: 50vh;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.img-container div {
+  z-index: 1;
+}
+
+.img-container h1 {
+  color: white;
+  z-index: 1;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+.img-container p {
+  color: white;
+  z-index: 1;
+  margin: 1rem;
+  margin-top: 0;
+}
+
+/* Info Banner below Image */
+
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  color: white;
+  border-top: 1px solid white;
+}
+
+span.cost-active {
+  color: #fff;
+}
+
+span.cost-inactive {
+  color: #fff5;
+}
